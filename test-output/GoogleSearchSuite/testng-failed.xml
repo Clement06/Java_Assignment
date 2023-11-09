@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoogleSearchSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GoogleSearchTest(failed)">
+    <classes>
+      <class name="assignment4.GoogleValidation">
+        <methods>
+          <include name="testGoogleSearch"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment4.GoogleValidation -->
+      <class name="assignment4.GoogleSearchTest">
+        <methods>
+          <include name="testURL"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- assignment4.GoogleSearchTest -->
+    </classes>
+  </test> <!-- GoogleSearchTest(failed) -->
+</suite> <!-- Failed suite [GoogleSearchSuite] -->

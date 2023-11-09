@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-09T17:59:20 GMT" name="GoogleSearchSuite" finished-at="2023-11-09T18:00:21 GMT" duration-ms="61335">
+    <groups>
+    </groups>
+    <test started-at="2023-11-09T17:59:20 GMT" name="Assignment" finished-at="2023-11-09T18:00:21 GMT" duration-ms="61335">
+      <class name="assignment4.GoogleValidation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment4.GoogleValidation@9353778]" started-at="2023-11-09T17:59:34 GMT" name="setUp" finished-at="2023-11-09T17:59:41 GMT" duration-ms="6784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogleSearch()[pri:0, instance:assignment4.GoogleValidation@9353778]" started-at="2023-11-09T17:59:41 GMT" name="testGoogleSearch" finished-at="2023-11-09T18:00:21 GMT" duration-ms="39528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method is-config="true" signature="close()[pri:0, instance:assignment4.GoogleValidation@9353778]" started-at="2023-11-09T18:00:21 GMT" name="close" finished-at="2023-11-09T18:00:21 GMT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- assignment4.GoogleValidation -->
+      <class name="assignment4.GoogleSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment4.GoogleSearchTest@a9cd3b1]" started-at="2023-11-09T17:59:20 GMT" name="setUp" finished-at="2023-11-09T17:59:31 GMT" duration-ms="11297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testButtons()[pri:0, instance:assignment4.GoogleSearchTest@a9cd3b1]" started-at="2023-11-09T17:59:31 GMT" name="testButtons" finished-at="2023-11-09T17:59:33 GMT" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testButtons -->
+        <test-method signature="testGoogleLogo()[pri:0, instance:assignment4.GoogleSearchTest@a9cd3b1]" started-at="2023-11-09T17:59:33 GMT" name="testGoogleLogo" finished-at="2023-11-09T17:59:34 GMT" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleLogo -->
+        <test-method signature="testSearchTextBox()[pri:0, instance:assignment4.GoogleSearchTest@a9cd3b1]" started-at="2023-11-09T17:59:34 GMT" name="testSearchTextBox" finished-at="2023-11-09T17:59:34 GMT" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTextBox -->
+        <test-method is-config="true" signature="close()[pri:0, instance:assignment4.GoogleSearchTest@a9cd3b1]" started-at="2023-11-09T17:59:34 GMT" name="close" finished-at="2023-11-09T17:59:34 GMT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- assignment4.GoogleSearchTest -->
+    </test> <!-- Assignment -->
+  </suite> <!-- GoogleSearchSuite -->
+</testng-results>
