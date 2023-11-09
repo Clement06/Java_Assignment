@@ -22,9 +22,6 @@ public class GoogleValidation {
     public void testGoogleSearch() {
         driver.get("https://www.google.com/");
         driver.findElement(By.xpath("//div[text()='Accept all']")).click();
-//        Thread.sleep(2000);
-//        driver.switchTo().frame("//*[@id=\\\"CXQnmb\"]/iframe");
-//        driver.findElement(By.xpath("//*[@id=\"W0wltc")).click();
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys("W3Schools");
         searchBox.submit();
